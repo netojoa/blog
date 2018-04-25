@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <dimen name="document_cover_height">160dp</dimen>
+  <dimen name="document_title_padding">10dp</dimen>
+  <dimen name="document_title">15dp</dimen>
+  <dimen name="document_padding_bottom">5dp</dimen>
+  <dimen name="document_description">12dp</dimen>
+  <dimen name="document_card_margin">5dp</dimen>
+  <dimen name="document_card_radius">0dp</dimen>
+
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

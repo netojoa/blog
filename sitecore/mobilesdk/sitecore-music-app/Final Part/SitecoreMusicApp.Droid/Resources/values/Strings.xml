@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Music App</string>
+  <string name="BackdropTitle">LOVE MUSIC</string>
+  <string name="BackdropSubtitle">This season top 10 albums</string>
+  <string name="ActionAddFavourite">Add Favourite</string>
+  <string name="ActionPlayNext">Play Next</string>
+  <string name="ActionSettings">Settings</string>
+</resources>

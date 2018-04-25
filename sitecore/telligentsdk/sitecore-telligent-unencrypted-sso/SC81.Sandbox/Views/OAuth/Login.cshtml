@@ -1,0 +1,43 @@
+﻿@model SC81.Sandbox.Models.LoginBoxModel
+
+@{
+    ViewBag.Title = "LoginBox";
+}
+
+<div class="container">
+
+    <div class="card card-container">
+
+        <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+
+        <p id="profile-name" class="profile-name-card"></p>
+
+        @using (Html.BeginForm(new { returnUrl = ViewBag.ReturnUrl }))
+        {
+
+            if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger">
+                    @Html.ValidationMessage("FormInvalid")
+                    @Html.ValidationMessage("FormError")
+                    @Html.ValidationMessage("LoginInvalid")
+                </div>
+            }
+
+            <div class="form-signin">
+
+                <span id="reauth-email" class="reauth-email"></span>
+                @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", placeholder = "User Name", required = "required", autofocus = "autofocus" })
+                @Html.PasswordFor(model => model.Password, new { @class = "form-control", placeholder = "Password", required = "required" })
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+
+            </div>
+        }
+
+        <a href="#" class="forgot-password">
+            Forgot the password?
+        </a>
+
+    </div>
+
+</div>
