@@ -1,0 +1,40 @@
+<Settings>
+    <Sitecore>
+        <Publishing>
+            <Services>
+                <Scheduler>
+                    <Options>
+                        <Tasks>
+                            <CustomTask>
+                                <TaskDefinition Type="Sandbox.Customization.Publishing.Tasks.AutoPublishTask, Sandbox.Customization.Publishing" BindOptions="property" >
+                                    <Options>
+                                        <Id>Auto Publish Task</Id>
+                                        <ContextLanguage>en</ContextLanguage>
+                                        <Languages>en, nl</Languages>
+                                        <Targets>Internet</Targets>
+                                        <Source>Master</Source>
+                                        <Descendants>false</Descendants>
+                                        <RelatedItems>true</RelatedItems>
+                                        <User>sitecore\\Admin</User>
+                                        <Metadata>
+                                            <PublishType>Full site publish</PublishType>
+                                            <SitecoreInstanceName>JNETO-sandbox.dev.local</SitecoreInstanceName>
+                                            <DetectCloneSources>True</DetectCloneSources>
+                                            <Publish.Options.ItemBucketsEnabled>True</Publish.Options.ItemBucketsEnabled>
+                                            <Publish.Options.BucketTemplateId>{adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97}</Publish.Options.BucketTemplateId>
+                                        </Metadata>
+                                    </Options>
+                                </TaskDefinition>
+                                <TriggerDefinitions>
+                                    <Interval Type="Sitecore.Framework.Scheduling.Triggers.IntervalTriggerDefinition, Sitecore.Framework.Scheduling" BindOptions="property">
+                                        <Options Interval="00:00:10" />
+                                    </Interval>
+                                </TriggerDefinitions>
+                            </CustomTask>
+                        </Tasks>
+                    </Options>
+                </Scheduler>
+            </Services>
+        </Publishing>
+    </Sitecore>
+</Settings>
