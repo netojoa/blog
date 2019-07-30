@@ -1,0 +1,11 @@
+﻿@using Sitecore.ExperienceForms.Mvc.Html
+@model Custom.Feature.Forms.Models.Fields.FieldsetViewModel
+
+<fieldset class="@Model.CssClass">
+    <legend class="@Model.LabelCssClass">@Model.Title</legend>
+    <div class="row">
+        <div class="col-md-12">
+            @Html.RenderFields(Model)
+        </div>
+    </div>
+</fieldset>

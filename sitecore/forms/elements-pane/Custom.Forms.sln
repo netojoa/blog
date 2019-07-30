@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{DCCC00E7-6F65-4262-8FC2-28913BA47688}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{A3CE8DF0-6CB7-4AE5-A70E-0F5A8CC3EECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom.Feature.Forms", "src\Feature\Forms\code\Custom.Feature.Forms.csproj", "{9BE282B4-C9F0-49D2-ACC9-F4861BF24FC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BE282B4-C9F0-49D2-ACC9-F4861BF24FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE282B4-C9F0-49D2-ACC9-F4861BF24FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE282B4-C9F0-49D2-ACC9-F4861BF24FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE282B4-C9F0-49D2-ACC9-F4861BF24FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3CE8DF0-6CB7-4AE5-A70E-0F5A8CC3EECB} = {DCCC00E7-6F65-4262-8FC2-28913BA47688}
+		{9BE282B4-C9F0-49D2-ACC9-F4861BF24FC2} = {A3CE8DF0-6CB7-4AE5-A70E-0F5A8CC3EECB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2041261-085F-4D8C-988A-667795306E31}
+	EndGlobalSection
+EndGlobal
