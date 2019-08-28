@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xConnectReverseProxy", "src\xconnect-reverse-proxy\xConnectReverseProxy.csproj", "{14B8DE30-FEF7-43E0-9E55-E249109CBB60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14B8DE30-FEF7-43E0-9E55-E249109CBB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B8DE30-FEF7-43E0-9E55-E249109CBB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B8DE30-FEF7-43E0-9E55-E249109CBB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B8DE30-FEF7-43E0-9E55-E249109CBB60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7A2B36F-065B-4329-9645-38796EC591C8}
+	EndGlobalSection
+EndGlobal
