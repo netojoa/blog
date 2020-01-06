@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{C2BAAE03-C0AE-4407-862A-64AA6E7E09F2}"
 	ProjectSection(SolutionItems) = preProject
 		deploy\FormsModel, 1.0.json = deploy\FormsModel, 1.0.json
+		readme.md = readme.md
 		deploy\sc.Custom.Forms.Predicates.xml = deploy\sc.Custom.Forms.Predicates.xml
 		TdsGlobal.config = TdsGlobal.config
 	EndProjectSection

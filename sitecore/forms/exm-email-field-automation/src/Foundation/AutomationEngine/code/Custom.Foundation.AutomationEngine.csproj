@@ -87,7 +87,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="readme.md" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
