@@ -24,6 +24,13 @@ content-length: 58
 
 <image mediaid="{68BF01C2-A02C-45EA-9A88-894FE47030BF}" />
 ----field----
+field: {1398896A-B1AA-420F-B5BA-693841E37A55}
+name: IsLiveEvent
+key: isliveevent
+content-length: 1
+
+1
+----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
 key: __workflow
@@ -33,7 +40,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 26d126ca-7c05-4675-8d9f-7fa3c0e7852e
+revision: 51ee27bb-ab48-484e-849f-76bf99af8328
 
 ----field----
 field: {AC6BA888-4213-43BD-B787-D8DA2B6B881F}
@@ -62,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-26d126ca-7c05-4675-8d9f-7fa3c0e7852e
+51ee27bb-ab48-484e-849f-76bf99af8328
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200103T125017Z
+20200106T104052Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
