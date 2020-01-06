@@ -1,3 +1,7 @@
+Files and packages are located in the [deploy folder](https://github.com/JANeto87/blog/tree/master/sitecore/forms/exm-email-field-automation/deploy).
+
+Assemblies are located in the packages.
+
 ## XP configuration
 
 Install the Sitecore package "Forms and Marketing Automation items.zip".
