@@ -105,7 +105,18 @@
       <Name>Items</Name>
     </xitems>
     <xfiles>
-      <Entries />
+      <Entries>
+        <x-item>/bin/Custom.Foundation.Forms.dll</x-item>
+        <x-item>/bin/Custom.Foundation.AutomationEngine.dll</x-item>
+        <x-item>/bin/Custom.Foundation.Xdb.dll</x-item>
+        <x-item>/Views/Website</x-item>
+        <x-item>/Views/Website/Layouts</x-item>
+        <x-item>/Views/Website/Layouts/Default.cshtml</x-item>
+        <x-item>/Views/Website/Layouts/MvcOuterLayout.cshtml</x-item>
+        <x-item>/Views/Website/Sublayouts</x-item>
+        <x-item>/Views/Website/Sublayouts/FormSection.cshtml</x-item>
+        <x-item>/Views/Website/Sublayouts/Section.cshtml</x-item>
+      </Entries>
       <Converter>
         <FileToEntryConverter>
           <Root />
