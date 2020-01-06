@@ -1,0 +1,114 @@
+----item----
+version: 1
+id: {2CC0C628-5F37-48F8-B536-8CA3A5A90CA4}
+database: master
+path: /sitecore/system/Marketing Control Panel/Automation Plans/2020/01/04/19/22/Form Submission Automation-2cc0c628-5f37-48f8-b536-8ca3a5a90ca4
+parent: {92D24AA6-D5A2-403C-84A5-5EC7004E64E1}
+name: Form Submission Automation-2cc0c628-5f37-48f8-b536-8ca3a5a90ca4
+master: {00000000-0000-0000-0000-000000000000}
+template: {D4D43C33-3661-4630-AF63-0754CAB7B110}
+templatekey: Plan Definition
+
+----field----
+field: {1766652D-080B-409C-ABBF-3A90E0F801F5}
+name: Start Date
+key: start date
+content-length: 15
+
+00010101T000000
+----field----
+field: {2C41A32F-86A9-4F43-8550-BF0AF266E3F2}
+name: End Date
+key: end date
+content-length: 16
+
+20200107T195907Z
+----field----
+field: {3FB918C8-08EC-4879-8062-088BBF71EE72}
+name: Plan Data
+key: plan data
+content-length: 3809
+
+{"ReentryMode":1,"ContextKeyFactoryType":null,"EntryActivityId":"162dd9c5-bf4c-d6e9-5c26-51602e27d9ac","NewEnrollmentRegulatorType":null,"NewEnrollmentRegulatorParameters":null,"PlanEntrySchedule":null,"ScheduledContactListId":null,"Alias":"Form Submission Automation-2cc0c628-5f37-48f8-b536-8ca3a5a90ca4","IgnoreIsActiveProperty":true,"Activities":{"162dd9c5-bf4c-d6e9-5c26-51602e27d9ac":{"Paths":{"default":"f766c086-fce9-2dfa-3446-2942985ba0e1"},"Id":"162dd9c5-bf4c-d6e9-5c26-51602e27d9ac","ActivityTypeId":"8c92d3c1-2c38-4e8a-92d1-9590e17cce89","Parameters":{"EventIds":{"$type":"System.Collections.Generic.List`1[[System.Guid, mscorlib]], mscorlib","$values":["8d131154-dc93-43cf-9901-655b33ca5e87"]},"GoalIds":{"$type":"System.Collections.Generic.List`1[[System.Guid, mscorlib]], mscorlib","$values":[]},"OutcomeIds":{"$type":"System.Collections.Generic.List`1[[System.Guid, mscorlib]], mscorlib","$values":[]},"TestOperation":0,"UseCondition":false}},"f766c086-fce9-2dfa-3446-2942985ba0e1":{"Paths":{"false":"aa66fda6-70da-65e0-750d-93f5bc4e9dad","true":"f5837fd8-a703-20eb-3d82-633b27d1726c"},"Id":"f766c086-fce9-2dfa-3446-2942985ba0e1","ActivityTypeId":"7fca5e5b-4796-4d7e-abec-28f376e4d7e2","Parameters":{"Condition":{"$type":"Sitecore.Marketing.Rules.Rule[], Sitecore.Marketing","$values":[{"Id":"7bc70dde-735d-4308-be80-560305a9bb41","Name":" ","ConditionType":"Sitecore.Marketing.Rules.ConditionNode, Sitecore.Marketing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=null","_condition":{"$type":"Sitecore.Marketing.Rules.ConditionNode, Sitecore.Marketing","Id":"113127e4-73f7-4317-b974-566145091f35","DescriptorId":"df03656e-a99b-42b1-ab25-ad22d8f6b421","Properties":{"$type":"System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib","fieldId":"{5CE6B698-4E3E-410D-84C3-84C0C1F8B499}","Comparison":"is case insensitive and equal to","value":"books"}}}]},"ListenerDelay":{"$type":"Sitecore.Marketing.Automation.Models.ListenerDelay, Sitecore.Marketing.Automation.Models","Delay":"00:01:00","WaitUntil":null},"Name":"Topic is Books"}},"aa66fda6-70da-65e0-750d-93f5bc4e9dad":{"Paths":{"false":"bcbd07ae-b1d2-a232-9b77-a9e3bb673eba","true":"0549bd2a-cd82-a9e8-c74d-6502c6ae63b8"},"Id":"aa66fda6-70da-65e0-750d-93f5bc4e9dad","ActivityTypeId":"e16592de-c9cd-4926-8f39-beb3db067d0a","Parameters":{"Condition":{"$type":"Sitecore.Marketing.Rules.Rule[], Sitecore.Marketing","$values":[{"Id":"f772a15a-fefc-4a90-8d4e-ece403fcdc70","Name":" ","ConditionType":"Sitecore.Marketing.Rules.ConditionNode, Sitecore.Marketing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=null","_condition":{"$type":"Sitecore.Marketing.Rules.ConditionNode, Sitecore.Marketing","Id":"ff8ed811-b3d5-40c4-82de-b367656def6b","DescriptorId":"df03656e-a99b-42b1-ab25-ad22d8f6b421","Properties":{"$type":"System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib","fieldId":"{5CE6B698-4E3E-410D-84C3-84C0C1F8B499}","Comparison":"is case insensitive and equal to","value":"gifts"}}}]},"Name":"Topic is Gifts"}},"0549bd2a-cd82-a9e8-c74d-6502c6ae63b8":{"Paths":{"default":"bcbd07ae-b1d2-a232-9b77-a9e3bb673eba"},"Id":"0549bd2a-cd82-a9e8-c74d-6502c6ae63b8","ActivityTypeId":"51774db5-b90b-4189-9613-104039723a0b","Parameters":{"MessageId":"39f45398-a9da-4bfd-a473-61763b9ffce7"}},"f5837fd8-a703-20eb-3d82-633b27d1726c":{"Paths":{"default":"bcbd07ae-b1d2-a232-9b77-a9e3bb673eba"},"Id":"f5837fd8-a703-20eb-3d82-633b27d1726c","ActivityTypeId":"51774db5-b90b-4189-9613-104039723a0b","Parameters":{"MessageId":"ac72e7e0-7cd7-4696-a12c-ae91fbeb8de3"}},"bcbd07ae-b1d2-a232-9b77-a9e3bb673eba":{"Paths":{},"Id":"bcbd07ae-b1d2-a232-9b77-a9e3bb673eba","ActivityTypeId":"a47371c2-8921-421f-8902-f3eccd229d56","Parameters":{}}},"UniversalActivities":{}}
+----field----
+field: {394D49B2-B579-43AA-AB32-B4010B18FD07}
+name: Marketing Theme
+key: marketing theme
+content-length: 0
+
+
+----field----
+field: {621D7A1F-C6A3-4A2F-8FCD-7DD1FD893C9C}
+name: Custom Values
+key: custom values
+content-length: 2
+
+{}
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{689E2994-4656-4C58-9112-7826CB46EE69}
+----version----
+language: en
+version: 1
+revision: 2175d55e-f701-487b-91f1-aaf8498f021c
+
+----field----
+field: {365F1971-B028-4065-BC11-CE1F471452AF}
+name: Name
+key: name
+content-length: 26
+
+Form Submission Automation
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200104T192239Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2175d55e-f701-487b-91f1-aaf8498f021c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200106T101109Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}

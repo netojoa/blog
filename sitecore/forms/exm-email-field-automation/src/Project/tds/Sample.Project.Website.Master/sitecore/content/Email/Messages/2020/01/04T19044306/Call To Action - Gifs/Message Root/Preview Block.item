@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {38B87CB7-52A9-4351-A048-AEBD2F200D0C}
+database: master
+path: /sitecore/content/Email/Messages/2020/01/04T19044306/Call To Action - Gifs/Message Root/Preview Block
+parent: {E6C063BE-9BC6-4307-9598-2DF6EF46AAEF}
+name: Preview Block
+master: {89F09F47-6ACA-41A9-ACC6-2E33A0334C0C}
+template: {F5A65243-2F76-402C-9D7F-C34EFB3402FA}
+templatekey: Preview Block
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{615140C6-5392-4E30-8EA1-61A827D47493}
+----version----
+language: en
+version: 1
+revision: 3cfa861c-370a-4dba-8c69-3698daafa722
+
+----field----
+field: {1DCC8640-E7D3-40D1-A20C-42DCC912E703}
+name: Preview Line 1
+key: preview line 1
+content-length: 105
+
+This is your preview text. <span class="em_mob_block"></span> Add information about your email&nbsp;here.
+----field----
+field: {D2BF200E-E0B9-4C81-B7C8-8352B54154D4}
+name: Preview Line 2
+key: preview line 2
+content-length: 43
+
+To view this email in a browser, click here
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200104T190443Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3cfa861c-370a-4dba-8c69-3698daafa722
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200104T190443Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\Joao

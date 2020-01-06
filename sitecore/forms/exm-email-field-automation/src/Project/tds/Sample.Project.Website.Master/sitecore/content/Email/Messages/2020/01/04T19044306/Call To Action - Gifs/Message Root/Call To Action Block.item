@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {18ECE552-609F-4881-9A03-7D767019FA9D}
+database: master
+path: /sitecore/content/Email/Messages/2020/01/04T19044306/Call To Action - Gifs/Message Root/Call To Action Block
+parent: {E6C063BE-9BC6-4307-9598-2DF6EF46AAEF}
+name: Call To Action Block
+master: {89F09F47-6ACA-41A9-ACC6-2E33A0334C0C}
+template: {6FA0BCF2-3153-4932-8763-410A0244ACBB}
+templatekey: Call To Action Block
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{EEC70C05-B649-4F76-8F98-9F857C773B6A}
+----version----
+language: en
+version: 1
+revision: 7e4c14b6-51db-4f09-86f9-886de981738b
+
+----field----
+field: {B0C903B1-F597-4268-9C44-FAEC6A95FA01}
+name: Call to action text
+key: call to action text
+content-length: 50
+
+You've got a voucher for a free <u><b>GIFT</b></u>
+----field----
+field: {81967970-DB7A-4A51-9972-A6364F6718DE}
+name: Call to action link
+key: call to action link
+content-length: 100
+
+<link linktype="external" text="Free Gift" class="call-to-action-link" url="" anchor="" target="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200104T190443Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7e4c14b6-51db-4f09-86f9-886de981738b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200104T191604Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

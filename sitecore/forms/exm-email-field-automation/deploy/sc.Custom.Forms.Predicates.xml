@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+	<Sitecore>
+		<XConnect>
+			<Services>
+				<DescriptorLocator>
+					<Options>
+						<PredicateDescriptors>
+							<FieldValueCondition>
+								<id>{DF03656E-A99B-42B1-AB25-AD22D8F6B421}</id>
+								<type>Custom.Foundation.AutomationEngine.Predicates.Forms.FieldValueCondition, Custom.Foundation.AutomationEngine</type>
+							</FieldValueCondition>
+						</PredicateDescriptors>
+					</Options>
+				</DescriptorLocator>
+			</Services>
+		</XConnect>
+	</Sitecore>
+</Settings>

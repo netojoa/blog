@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {3D574285-21E1-4D4F-B435-57155AFB28F1}
+database: master
+path: /sitecore/Forms/Register/Page/Single-Line Text
+parent: {43E6DFEC-19FA-4990-899A-48D3FB2A8452}
+name: Single-Line Text
+master: {00000000-0000-0000-0000-000000000000}
+template: {0908030B-4564-42EA-A6FA-C7A5A2D921A8}
+templatekey: Input
+
+----field----
+field: {9F7DA002-7B86-436B-8DDA-7EFE5837B88E}
+name: Min Length
+key: min length
+content-length: 1
+
+0
+----field----
+field: {84ECE662-5034-40CB-9C60-744DB64BB294}
+name: Field Key
+key: field key
+content-length: 32
+
+C9D83A6207CF4D3A8B3CB1CCFB4EAC39
+----field----
+field: {71C6DE8E-4718-4977-B83E-B49552EE14B0}
+name: Conditions
+key: conditions
+content-length: 22
+
+{"fieldConditions":[]}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 09c4dff3-4076-4ce4-b7ad-95590602c724
+
+----field----
+field: {71FFD7B2-8B09-4F7B-8A66-1E4CEF653E8D}
+name: Title
+key: title
+content-length: 10
+
+First Name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200101T164500Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+09c4dff3-4076-4ce4-b7ad-95590602c724
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200101T164830Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\Joao

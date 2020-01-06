@@ -1,0 +1,149 @@
+----item----
+version: 1
+id: {39F45398-A9DA-4BFD-A473-61763B9FFCE7}
+database: master
+path: /sitecore/content/Email/Messages/2020/01/04T19044306/Call To Action - Gifs
+parent: {429344DE-3AE3-4DAA-A6B2-E459DCF11D6D}
+name: Call To Action - Gifs
+master: {89F09F47-6ACA-41A9-ACC6-2E33A0334C0C}
+template: {078D8A76-F971-4891-B422-76C0BCF9FA03}
+templatekey: AB Test Message
+
+----field----
+field: {09AD7C00-A8DE-46F7-BC54-E7572E38C136}
+name: Body
+key: body
+content-length: 38
+
+{E6C063BE-9BC6-4307-9598-2DF6EF46AAEF}
+----field----
+field: {21F2A1E0-AC16-443B-B7A9-83504159F2BB}
+name: Device
+key: device
+content-length: 38
+
+{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}
+----field----
+field: {78F0B1F8-FDF4-4C1C-BEC6-1AC68A210A52}
+name: Campaign
+key: campaign
+content-length: 38
+
+{A5B08C3C-F0F7-42D4-8499-3FC4D8F2D278}
+----field----
+field: {2BBF5276-ED11-4CD0-946F-66678B524457}
+name: Campaign Position
+key: campaign position
+content-length: 38
+
+{C1B8669B-C41A-4ED3-BF0D-E859CF880D42}
+----field----
+field: {0934BEC4-325A-427B-95BB-46F78CEA9591}
+name: Message Type
+key: message type
+content-length: 38
+
+{B2F77E26-C5AC-4A6B-BBB3-F290100EB3D8}
+----field----
+field: {AF0FE26A-A78B-491D-885C-03D95BC17342}
+name: State
+key: state
+content-length: 6
+
+Active
+----field----
+field: {6EC7A9E6-9FD5-4892-BBF6-11E76E0E5DB8}
+name: Start Time
+key: start time
+content-length: 16
+
+20200104T191644Z
+----field----
+field: {E2D1D8A4-24AA-4536-A420-7EADD8719CF6}
+name: Service Message
+key: service message
+content-length: 1
+
+1
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{1866755F-E69A-4A3E-9D00-1A36120A822D}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 921
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{D35BA0F3-B378-466C-ADF3-0EF1D5F41369}"><r ds="" id="{69EB7A6D-ACEF-4D06-A923-804918AA245E}" par="" ph="msg-html-title" uid="{526AFB07-CE11-43CC-A8A1-4B906BC54FE6}" /><r ds="{38B87CB7-52A9-4351-A048-AEBD2F200D0C}" id="{5A67BD04-F5C3-4114-98CE-B4DB50DC980B}" par="" ph="preview-area" uid="{757549A5-5B45-4AF8-A37F-D5D4B7B9D1C4}" /><r ds="{668E8B9B-8631-4D72-A60C-7C090EDF418C}" id="{E89D305C-CF92-4445-ABC1-9EAB38F72ED7}" par="" ph="header-area" uid="{FC745491-FBE9-4361-BEC6-9E10580ABFA2}" /><r ds="{18ECE552-609F-4881-9A03-7D767019FA9D}" id="{340A8528-3E66-4DF6-82E0-4228CC8C684F}" par="" ph="body-area" uid="{BB09D4AC-2CB1-49FD-9F45-00AE88BDE543}" /><r ds="{F929D696-15DB-429E-9FDD-177955BBC89B}" id="{BF323449-F257-4EFB-9FF5-8248CA227393}" par="" ph="footer-area" uid="{D655EFD4-23A4-40EC-A4DD-FC06413C8C52}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 1ec0d480-e823-403e-805a-ee0e7dc4ef1d
+
+----field----
+field: {0D844C9C-BD6C-49B8-9475-947DA791F268}
+name: From Address
+key: from address
+content-length: 28
+
+marketing@amazingcompany.com
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+Call To Action - Gifs
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200104T190443Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1ec0d480-e823-403e-805a-ee0e7dc4ef1d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200104T191644Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\Joao

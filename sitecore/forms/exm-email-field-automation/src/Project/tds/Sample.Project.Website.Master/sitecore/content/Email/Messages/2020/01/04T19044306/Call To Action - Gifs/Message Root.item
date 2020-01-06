@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {E6C063BE-9BC6-4307-9598-2DF6EF46AAEF}
+database: master
+path: /sitecore/content/Email/Messages/2020/01/04T19044306/Call To Action - Gifs/Message Root
+parent: {39F45398-A9DA-4BFD-A473-61763B9FFCE7}
+name: Message Root
+master: {89F09F47-6ACA-41A9-ACC6-2E33A0334C0C}
+template: {3F12D78C-B7B7-4157-98FC-DA3322EE1A5B}
+templatekey: Message Root
+
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{71345229-76D0-4604-A095-203467A06B48}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 921
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{D35BA0F3-B378-466C-ADF3-0EF1D5F41369}"><r ds="" id="{69EB7A6D-ACEF-4D06-A923-804918AA245E}" par="" ph="msg-html-title" uid="{526AFB07-CE11-43CC-A8A1-4B906BC54FE6}" /><r ds="{38B87CB7-52A9-4351-A048-AEBD2F200D0C}" id="{5A67BD04-F5C3-4114-98CE-B4DB50DC980B}" par="" ph="preview-area" uid="{757549A5-5B45-4AF8-A37F-D5D4B7B9D1C4}" /><r ds="{668E8B9B-8631-4D72-A60C-7C090EDF418C}" id="{E89D305C-CF92-4445-ABC1-9EAB38F72ED7}" par="" ph="header-area" uid="{FC745491-FBE9-4361-BEC6-9E10580ABFA2}" /><r ds="{18ECE552-609F-4881-9A03-7D767019FA9D}" id="{340A8528-3E66-4DF6-82E0-4228CC8C684F}" par="" ph="body-area" uid="{BB09D4AC-2CB1-49FD-9F45-00AE88BDE543}" /><r ds="{F929D696-15DB-429E-9FDD-177955BBC89B}" id="{BF323449-F257-4EFB-9FF5-8248CA227393}" par="" ph="footer-area" uid="{D655EFD4-23A4-40EC-A4DD-FC06413C8C52}" /></d></r>
+----version----
+language: en
+version: 1
+revision: b0fc3a78-85e7-4686-a160-9669e1ee53da
+
+----field----
+field: {C0BFD467-0B74-4EFE-B7C9-1ECF7F0E5370}
+name: Subject
+key: subject
+content-length: 58
+
+Thanks for subscribing - here is a voucher for a free GIFT
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200104T190443Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b0fc3a78-85e7-4686-a160-9669e1ee53da
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200104T191644Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

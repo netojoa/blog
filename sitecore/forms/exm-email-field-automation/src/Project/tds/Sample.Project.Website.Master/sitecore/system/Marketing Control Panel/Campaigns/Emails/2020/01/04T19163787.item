@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {72BAF559-DCA0-4015-B295-6801570322AF}
+database: master
+path: /sitecore/system/Marketing Control Panel/Campaigns/Emails/2020/01/04T19163787
+parent: {BDC1D5FA-8109-4504-8C6A-81402D7F203D}
+name: 04T19163787
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {6FD695E7-7F6D-4CA5-8B49-A829E5950AE9}
+name: __Subitems Sorting
+key: __subitems sorting
+content-length: 38
+
+{32416A95-4197-4D33-8CE7-7BB4FFEBEB42}
+----version----
+language: en
+version: 1
+revision: 79c991d7-93a8-47bc-afb2-2d45fdd2ea4b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200104T191637Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+79c991d7-93a8-47bc-afb2-2d45fdd2ea4b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200104T191637Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\Joao

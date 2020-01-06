@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {AAF169EC-2CC5-407A-AB85-361477BC5808}
+database: master
+path: /sitecore/templates/Project/Website/Page Types/Content Page/__Standard Values
+parent: {A5FDD7AD-B43B-4416-A90B-4561762772CE}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {A5FDD7AD-B43B-4416-A90B-4561762772CE}
+templatekey: Content Page
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 355
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{D7B2EF5F-10D7-4852-BDC5-79ED9836EDE8}"><r id="{13F480C9-406D-461C-AAC7-853F7879D7A6}" ph="main" uid="{30FE6195-1EB3-4C85-964D-E02D0DD3AF02}" /><r id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}" ph="form" uid="{8BECADBD-8393-48AB-8FE3-04E0B8142F03}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 5c282139-88d5-4e75-9a54-02d07848e432
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200101T163750Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\Joao
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5c282139-88d5-4e75-9a54-02d07848e432
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200101T164135Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\Joao

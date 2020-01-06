@@ -1,0 +1,27 @@
+{
+  "Name": "FormsModel",
+  "Version": "1.0",
+  "References": [
+    {
+      "Name": "XConnect",
+      "Version": "1.0"
+    },
+    {
+      "Name": "Sitecore.XConnect.Collection.Model",
+      "Version": "9.3"
+    }
+  ],
+  "Types": {
+    "Custom.Foundation.Xdb.Events.FormSubmission": {
+      "Type": "Event",
+      "BaseType": "Sitecore.XConnect.Event",
+      "ClrType": "Custom.Foundation.Xdb.Events.FormSubmission, Custom.Foundation.Xdb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Properties": {
+        "FormId": {
+          "Type": "Guid"
+        }
+      }
+    }
+  },
+  "Facets": []
+}
