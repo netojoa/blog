@@ -1,0 +1,137 @@
+<project site="https://xp930.sc" format="Zip Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>Sample site and submit action</PackageName>
+      <Author>João Neto</Author>
+      <Version />
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>João Neto</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/{CAB7D043-D31E-42A8-B2E8-3363F685C36B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/{73E2BAC2-098B-433A-A90E-F5962D737B39}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/Stylesheet/{49708943-7BBE-4D18-97AD-05D3A7DB634D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/GenericErrorMessage/{B1F84ABE-C419-4263-B674-B60910E88268}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/HeaderSubtitle/{9212E42D-8958-405A-8DC0-16DEBF86B1D0}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/HeaderTitle/{AEE9736C-64EE-45FA-8D8C-B938A80BA72B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/MessagesDataSource/{3862F10B-2212-4ACA-BA50-AD3D85546B35}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/SettingsForm/{A4827FCE-6136-42F1-9F9A-2FD0F235F539}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/UnauthorizedErrorMessage/{2F2D08D8-2047-43B7-8619-C8729D565DC1}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/ValueNotInListText/{97786584-6234-443C-8689-AA014423D2FD}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/IdentifyContact/PageSettings/SettingsForm/IdentifierFieldId/{2F73BF66-0DEC-4083-BA39-06E9A10132E7}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Identify Contact/{2F3DFE48-D117-437E-8952-885C3A9AF00D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Project/Website/{E0879E6C-911A-4C3C-8EA0-BA7301AB19BC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Project/Website/Page Types/{E08EC191-7E41-4486-9A50-BC2CA82B91C6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Project/Website/Page Types/Content Page/{A5FDD7AD-B43B-4416-A90B-4561762772CE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Project/Website/Page Types/Content Page/__Standard Values/{AAF169EC-2CC5-407A-AB85-361477BC5808}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Automation Plans/2020/{326A4C0B-2A67-4C26-B9E2-514E3721CBDE}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Automation Plans/2020/01/{210FDF47-77C1-4789-BD2B-DAECFB8DF6F9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Automation Plans/2020/01/04/{4C72A37A-BA7A-4327-AC34-E92CE3891778}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Automation Plans/2020/01/04/19/{9F5BC00C-C713-495D-8748-6A729D50E510}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Automation Plans/2020/01/04/19/22/{92D24AA6-D5A2-403C-84A5-5EC7004E64E1}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Automation Plans/2020/01/04/19/22/Form Submission Automation-2cc0c628-5f37-48f8-b536-8ca3a5a90ca4/{2CC0C628-5F37-48F8-B536-8CA3A5A90CA4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Campaigns/Emails/2020/{B0373D38-C241-44A9-A1D9-D293B83B1BA1}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Campaigns/Emails/2020/01/{BDC1D5FA-8109-4504-8C6A-81402D7F203D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Campaigns/Emails/2020/01/04T19163787/{72BAF559-DCA0-4015-B295-6801570322AF}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Campaigns/Emails/2020/01/04T19202727/{2241A17F-EF3D-43F1-A901-F875B9135D17}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Campaigns/Emails/2020/01/04T19163787/Call To Action - Gifs39f45398-a9da-4bfd-a473-61763b9ffce7/{A5B08C3C-F0F7-42D4-8499-3FC4D8F2D278}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Campaigns/Emails/2020/01/04T19202727/Call To Action - Booksac72e7e0-7cd7-4696-a12c-ae91fbeb8de3/{DD2DDDE5-CA95-4579-B661-852DE97E6C86}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Project/Sample/{D7A5DE86-07BA-4D8D-B355-2464B0A48052}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Project/Sample/Default/{D7B2EF5F-10D7-4852-BDC5-79ED9836EDE8}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Project/Website/{D46F0BC3-8B81-41E4-86B2-3CD5D6974D5D}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Project/Website/Form Section/{13F480C9-406D-461C-AAC7-853F7879D7A6}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Project/Website/Section/{F5433EDE-AA96-47E4-9FC2-D014974E074C}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/{C8247E02-65D7-43BD-9EF5-7480FCEAFDB8}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/{43E6DFEC-19FA-4990-899A-48D3FB2A8452}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Single-Line Text/{3D574285-21E1-4D4F-B435-57155AFB28F1}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Email/{B81D765E-6AB9-47BA-A7B2-09C347F21BE8}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Topic/{5CE6B698-4E3E-410D-84C3-84C0C1F8B499}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Submit Button/{406EF53A-40DA-4BB4-A830-EDEBF9557921}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Topic/Settings/{5CAFD1BE-4379-464D-908A-F921AC283CE0}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Topic/Settings/Datasource/{0A95DCBD-F5BE-4E19-A94D-1F976B0E6E28}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Topic/Settings/Datasource/Books/{AEF5F1C9-7276-42DC-A08F-02C4E67738DE}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Topic/Settings/Datasource/Magazines/{B24813D8-752C-412F-BFEB-1B373B7227AC}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Topic/Settings/Datasource/Gifts/{C13D1DD9-6B60-4785-9365-A6AA76732C88}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Submit Button/SubmitActions/{5357B61C-CEA3-425B-AA45-F72138233FAF}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Submit Button/SubmitActions/Save Data/{9E9176B1-7E2E-489A-B254-3A58E2ADA2E6}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Submit Button/SubmitActions/Identify Contact/{6C53EE9E-F7C7-4878-AF30-6ADAA7556C85}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Register/Page/Submit Button/SubmitActions/Redirect to Page/{60B3C7CA-3DF1-4628-843C-B111DCE9459B}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/About/{4E467AFA-A08B-4946-8E65-EC32073EFB0D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/{4C08959A-68C2-40E9-BC1F-21078AB0705E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/{C051811C-820A-40FA-9410-6ED9FE570398}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19044306/{429344DE-3AE3-4DAA-A6B2-E459DCF11D6D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19173433/{8FF9DC76-63D7-4A22-8329-4A1151141F3A}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19044306/Call To Action - Gifs/{39F45398-A9DA-4BFD-A473-61763B9FFCE7}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19044306/Call To Action - Gifs/Message Root/{E6C063BE-9BC6-4307-9598-2DF6EF46AAEF}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19044306/Call To Action - Gifs/Message Root/Call To Action Block/{18ECE552-609F-4881-9A03-7D767019FA9D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19044306/Call To Action - Gifs/Message Root/Footer/{F929D696-15DB-429E-9FDD-177955BBC89B}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19044306/Call To Action - Gifs/Message Root/Header Image Block/{668E8B9B-8631-4D72-A60C-7C090EDF418C}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19044306/Call To Action - Gifs/Message Root/Preview Block/{38B87CB7-52A9-4351-A048-AEBD2F200D0C}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19173433/Call To Action - Books/{AC72E7E0-7CD7-4696-A12C-AE91FBEB8DE3}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19173433/Call To Action - Books/Message Root/{810C9E88-C41A-4541-A64E-3406142D4A72}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19173433/Call To Action - Books/Message Root/Call To Action Block/{9A67AACB-3158-4867-8E4E-9AAF9A48798E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19173433/Call To Action - Books/Message Root/Footer/{780FECB4-66FC-45C7-8D76-70B8B762804E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19173433/Call To Action - Books/Message Root/Header Image Block/{2503C3C6-08CD-436C-8277-6438FEE1F883}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Email/Messages/2020/01/04T19173433/Call To Action - Books/Message Root/Preview Block/{4C582EDF-B1A4-4EA6-B0E0-420840D205E7}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries />
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

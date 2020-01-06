@@ -1,0 +1,91 @@
+<project site="https://xp930.sc" format="Zip Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>Forms and Marketing Automation items</PackageName>
+      <Author>João Neto</Author>
+      <Version />
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>João Neto</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/ElementGroups/Forms/{A950ECD7-623D-4CA1-A134-27B012A92875}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Forms - Conditions/{E7F99B12-9866-496F-9A07-9EA994F598AB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/Forms/{279CFEA9-8669-4876-B344-BAF0CE38E430}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/XConnect - Conditions/Tags/Default/{8FAE2D11-903E-4E52-838D-361051128B01}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Forms - Conditions/Field in the form compares to value/{DF03656E-A99B-42B1-AB25-AD22D8F6B421}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Forms - Conditions/Tags/{FE7C1E4B-65A0-4FAF-ACA2-C90A360FECD5}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Forms - Conditions/Visibility/{1CD88C32-2167-4F03-B3D9-E25A7B04FE4D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Forms - Conditions/Tags/Default/{0CA1A2E8-AF6F-40A3-AFFD-C1C10F8A1716}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/Forms/Visibility/{54EF791A-A01E-46DD-9C30-37CFB24DF930}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Events/Form Submission/{8D131154-DC93-43CF-9901-655B33CA5E87}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Images/Foundation/{1EBDB83D-141B-4FE7-ADA1-E0D76F893AC8}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Images/Foundation/Xdb/{922A04BF-9E18-46BF-9B60-6FCD5A8D0229}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Images/Foundation/Xdb/forms1/{68BF01C2-A02C-45EA-9A88-894FE47030BF}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Foundation/Forms.DI.config</x-item>
+        <x-item>/App_Config/Include/Foundation/Forms.Mvc.Pipelines.config</x-item>
+        <x-item>/App_Config/Include/Foundation/Xdb.Models.config</x-item>
+        <x-item>/bin/Custom.Foundation.AutomationEngine.dll</x-item>
+        <x-item>/bin/Custom.Foundation.Forms.dll</x-item>
+        <x-item>/bin/Custom.Foundation.Xdb.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
