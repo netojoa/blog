@@ -1,0 +1,7 @@
+<svg>
+  <rect id="background" />
+  <image href="landscape.png"/>
+  <text id="txtTime" class="clock-text">13:37:20</text>
+  <rect class="divider divider-top" />
+  <text id="txtDate" class="date-text">MON JANUARY 01</text>
+</svg>

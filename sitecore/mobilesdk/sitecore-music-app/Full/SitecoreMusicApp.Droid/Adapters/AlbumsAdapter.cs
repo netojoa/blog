@@ -28,8 +28,6 @@ namespace SitecoreMusicApp.Droid.Adapters
             NotifyDataSetChanged();
         }
 
-        #region Overrides
-
         public override int ItemCount
         {
             get
@@ -44,7 +42,8 @@ namespace SitecoreMusicApp.Droid.Adapters
             AlbumViewHolder viewHolder = holder as AlbumViewHolder;
             viewHolder.Title.Text = album.Name;
             viewHolder.Count.Text = string.Format("{0} songs", album.NumberOfSongs);
-            viewHolder.Overflow.Click += (sender, e) => {
+            viewHolder.Overflow.Click += (sender, e) =>
+            {
                 ShowPopupMenu(viewHolder.Overflow);
             };
 
@@ -56,7 +55,6 @@ namespace SitecoreMusicApp.Droid.Adapters
             {
                 Log.Error(TAG, e.Message);
             }
-
         }
 
         private void ShowPopupMenu(View overflow)
@@ -75,10 +73,6 @@ namespace SitecoreMusicApp.Droid.Adapters
             return new AlbumViewHolder(itemView);
         }
 
-        #endregion
-
-        #region Events
-
         private void Popup_MenuItemClick(object sender, Android.Support.V7.Widget.PopupMenu.MenuItemClickEventArgs e)
         {
             switch (e.Item.ItemId)
@@ -86,15 +80,14 @@ namespace SitecoreMusicApp.Droid.Adapters
                 case Resource.Id.actionAddFavourite:
                     Toast.MakeText(_context, "Add to favourite", ToastLength.Long).Show();
                     break;
+
                 case Resource.Id.actionPlayNext:
                     Toast.MakeText(_context, "Play next", ToastLength.Long).Show();
                     break;
+
                 default:
                     break;
             }
         }
-
-        #endregion
-
     }
 }

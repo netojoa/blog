@@ -1,0 +1,44 @@
+#background {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  fill: #000000;
+}
+
+.clock-text {
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 32;
+  x: 50%;
+  y: 50%-25;
+  width: 100%;
+  height: 100%;
+  fill: chocolate;
+  font-size: 80;
+  line-increment: 100;
+  font-weight: bold;
+}
+
+.date-text {
+  font-family: Seville;
+  font-size: 26;
+  text-anchor: middle;
+  text-length: 32;
+  x: 50%;
+  y: 50%+39;
+  width: 100%;
+  height: 100%;
+  fill: #ffffff;
+}
+
+.divider {
+  x: 50%-111;
+  width: 222;
+  height: 1;
+  fill: #646464;
+}
+
+.divider-top {
+  y: 50%;
+}

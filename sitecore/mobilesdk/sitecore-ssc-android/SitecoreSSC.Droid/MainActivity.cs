@@ -12,8 +12,8 @@ namespace SitecoreSSC.Droid
         protected override void OnCreate(Bundle bundle)
         {
 
-            SetHttpsHandler();
             base.OnCreate(bundle);
+            SetHttpsHandler();
 
             SetContentView(Resource.Layout.Main);
             GetSitecoreContent();
@@ -32,14 +32,14 @@ namespace SitecoreSSC.Droid
         private async void GetSitecoreContent()
         {
 
-            string instanceUrl = "http://sitecoredev.local.nlc";
+            string instanceUrl = "https://xp930.sc";
 
             using (var credentials = new ScUnsecuredCredentialsProvider("admin", "b", "sitecore"))
 
             using (var session =
                    SitecoreSSCSessionBuilder.AuthenticatedSessionWithHost(instanceUrl)
                    .Credentials(credentials)
-                   .DefaultDatabase("web")
+                   .DefaultDatabase("master")
                    .DefaultLanguage("en")
                    .MediaLibraryRoot("/sitecore/media library")
                    .MediaPrefix("~/media/")
