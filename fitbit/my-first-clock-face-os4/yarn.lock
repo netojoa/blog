@@ -309,7 +309,7 @@
     error-subclass "^2.2.0"
     tslib "^2.0.3"
 
-"@fitbit/sdk-cli@1.7.3":
+"@fitbit/sdk-cli@^1.7.3":
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/@fitbit/sdk-cli/-/sdk-cli-1.7.3.tgz#f17dd0f02a3e17f1c2c423c4a8b254901bb0730f"
   integrity sha512-nwfwlp2T05CQMPVui6+mfefZdPUZ/YaeFOI9tt0q/mUvrn494Y7uOt4H7OEuOqTRzXhlAPapO43Col1Ny7RUtQ==
@@ -344,7 +344,7 @@
     update-notifier "^4.1.1"
     websocket-stream "^5.5.2"
 
-"@fitbit/sdk@4.1.0":
+"@fitbit/sdk@~4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@fitbit/sdk/-/sdk-4.1.0.tgz#695ea2c63c1a9611c4fd82c5d89124be9e9c5864"
   integrity sha512-cgCqwrLziIqhWcJhfecTRm1fpowpAAsmhXMxRWDIz4W/9ilvliF9f4Z9qnQWF7lGvFAuTlJGcXRyMwUdPOQFCg==
@@ -2192,9 +2192,9 @@ normalize-path@^2.1.1:
     remove-trailing-separator "^1.0.1"
 
 normalize-url@^4.1.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.0.tgz#453354087e6ca96957bd8f5baf753f5982142129"
-  integrity sha512-2s47yzUxdexf1OhyRi4Em83iQk0aPvwTddtFz4hnSSw9dCEsLEGf6SwIO8ss/19S9iBb5sJaOuTvTGDeZI00BQ==
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
+  integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
 
 now-and-later@^2.0.0:
   version "2.0.1"
