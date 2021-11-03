@@ -309,7 +309,7 @@
     error-subclass "^2.2.0"
     tslib "^2.0.3"
 
-"@fitbit/sdk-cli@1.7.3":
+"@fitbit/sdk-cli@^1.7.3":
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/@fitbit/sdk-cli/-/sdk-cli-1.7.3.tgz#f17dd0f02a3e17f1c2c423c4a8b254901bb0730f"
   integrity sha512-nwfwlp2T05CQMPVui6+mfefZdPUZ/YaeFOI9tt0q/mUvrn494Y7uOt4H7OEuOqTRzXhlAPapO43Col1Ny7RUtQ==
@@ -344,7 +344,7 @@
     update-notifier "^4.1.1"
     websocket-stream "^5.5.2"
 
-"@fitbit/sdk@5.0.2":
+"@fitbit/sdk@~5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@fitbit/sdk/-/sdk-5.0.2.tgz#75b4035c59cbd7f4748bcc412a77918d7a46e71a"
   integrity sha512-6C5B5emYyt98WzZU0o08zdPch6TK9QpOyVqukLaykdACxebvOTLcTwTVyBPsCVQgiAENzYBVM92pHrjWqflYfA==
@@ -3043,9 +3043,9 @@ uuid@^8.3.0:
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 validator@^13.1.1:
-  version "13.6.0"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-13.6.0.tgz#1e71899c14cdc7b2068463cb24c1cc16f6ec7059"
-  integrity sha512-gVgKbdbHgtxpRyR8K0O6oFZPhhB5tT1jeEHZR0Znr9Svg03U0+r9DXWMrnRAB+HtCStDQKlaIZm42tVsVjqtjg==
+  version "13.7.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-13.7.0.tgz#4f9658ba13ba8f3d82ee881d3516489ea85c0857"
+  integrity sha512-nYXQLCBkpJ8X6ltALua9dRrZDHVYxjJ1wgskNt1lH9fzGjs3tgojGSCBjmEPwkWS1y29+DrizMTW19Pr9uB2nw==
 
 value-or-function@^3.0.0:
   version "3.0.0"
